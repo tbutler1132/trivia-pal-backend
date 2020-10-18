@@ -1,6 +1,7 @@
 require 'rest-client'
 require 'byebug'
 Question.destroy_all
+User.destroy_all
 
 film_rq = RestClient.get 'https://opentdb.com/api.php?amount=50&category=11'
 film_array = JSON.parse(film_rq)["results"]
@@ -145,3 +146,7 @@ video_games_array.each { |question|
     incorrect_answers: question["incorrect_answers"]
     )
 }
+
+
+User.create!(name: "tim", password: "1234")
+User.create!(name: "russ", password: "1234")
