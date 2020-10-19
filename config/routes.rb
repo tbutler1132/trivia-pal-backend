@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :questions, :score, :users
+  resources :questions, :scores, :users
   post '/login', to: 'auth#create'
   get '/profile', to: 'users#profile'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
