@@ -152,4 +152,4 @@ video_games_array.each { |question|
 tim = User.create!(name: 'tim', password: '1234')
 russ = User.create!(name: 'russ', password: '1234')
 
-Score.create!(points: 5, user: russ )
+Score.create!(points: 5, user: russ, difficulty: "easy", questions: 5, category: "mythology" )
