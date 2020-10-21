@@ -1,3 +1,3 @@
 class QuestionSerializer < ActiveModel::Serializer
-  attributes :id, :question, :difficult, :category, :type, :correct_answer, :incorrect_answers
+  attributes :id, :question, :difficulty, :category, :q_type, :correct_answer, :incorrect_answers
 end
