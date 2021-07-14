@@ -34,7 +34,7 @@ Run the rails server
 
 	$ bundle e rails s
 	
-cd into Tune-der-frontend
+cd into trivia-pal-frontend
 
 	$ npm install
 	$ npm start
