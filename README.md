@@ -1,5 +1,5 @@
 Live Demo: 
-	https://blissful-thompson-f85926.netlify.app
+	https://compassionate-kilby-7573fa.netlify.app/
   
   TriviaPal is an application that allows users to take quizzes and save their results. A user select a topic, diffuclty, and the number of questions.
   
